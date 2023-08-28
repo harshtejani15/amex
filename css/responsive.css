@@ -149,7 +149,8 @@
 	}
 
 	body.menu_open .toggle-btn span {
-		background-color: transparent;
+	    background-color: transparent;
+	    filter: blur(1px);
 	}
 	.long-distance-sec h2 {
 	    font-size: 40px;
