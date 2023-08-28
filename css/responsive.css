@@ -234,8 +234,8 @@
 	    max-width: 90px;
 	}
 	.btn-primary {
-	    padding: 4px 11px;
-	    font-size: 12px;
+	    padding: 4px 7px;
+	    font-size: 8px;
 	    pointer-events: auto;
 	}
 	.long-distance-sec h2 {
@@ -267,5 +267,46 @@
 	}
 	.long-distance-sec-right-side li {
 	    transform: translateX(calc(221px - 77px));
+	}
+
+	.get-a-quote-left h2 {
+	    margin-bottom: 3px;
+	}
+
+	.bigg-title {
+	    font-size: 25px;
+	}
+
+	.get-a-quote-left {
+	    padding: 5px 24px 5px 0px;
+	}
+
+	body p {
+	    font-size: 8px;
+	}
+
+	.get-a-quote-right span {
+	    font-size: 7px;
+	}
+
+	.get-a-quote-coll-1 {
+	    padding: 0px 15px;
+	}
+
+	.get-a-quote-coll-2-text {
+	    padding: 0px 0 0 0px;
+	    margin-right: 10px;
+	}
+
+	.get-a-quote-right p {
+	    margin-bottom: 2px;
+	}
+
+	.bigg-title {
+	    font-size: 25px;
+	}
+
+	.get-a-quote-left {
+	    padding: 8px 25px 8px 8px;
 	}
 }
