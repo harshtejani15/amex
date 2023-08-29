@@ -16,6 +16,10 @@
 	body p {
 	    font-size: 13px;
 	}
+
+	.header.fixed {
+	    top: -50px;
+	}
 	.header-bottom-menu ul li {
     	padding: 0 8px;
 	}
@@ -164,6 +168,10 @@
 	html body {
 	    font-size: 10px;
 	    padding-top: 97.92px;
+	}
+
+	.header.fixed {
+	    top: -38px;
 	}
 
 	.section-gapping, section {
@@ -346,6 +354,10 @@
 	html body {
 	    font-size: 10px;
 	    padding-top: 74.95px;
+	}
+
+	.header.fixed {
+	    top: -32px;
 	}
 
 	.section-gapping, section {
