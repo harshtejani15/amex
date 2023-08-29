@@ -271,10 +271,9 @@ a {
 /* Button styles end */
 
 /*Gapping*/
-.section-gapping,
-section {
-    padding-bottom: 60px;
-    padding-top: 60px;
+.section-gapping, section {
+    padding-bottom: 100px;
+    padding-top: 100px;
     overflow: hidden;
 }
 
@@ -436,6 +435,18 @@ section {
     color: var(--white);
 }
 
+.secondery-btn{
+    padding: 14px 32px;
+    border:1px solid var(--orange);
+    color: var(--orange);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.secondery-btn:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
 
 .header-bottom-menu ul li {
     padding: 0 13px;
@@ -677,3 +688,213 @@ section {
 }
 
 /*long-distance-sec-end*/
+
+
+
+/*reliable-movers-sec-start*/
+
+.reliable-movers-left{
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+}
+
+.reliable-movers-right{
+    width: 100%;
+    max-width: 50%;
+}
+
+.reliable-movers-left h3 {
+    font-size: 58px;
+    color: var(--darkblack);
+    font-weight: 700;
+}
+
+.reliable-movers-left p{
+    margin-top: 15px;
+}
+
+.reliable-movers-sec .row{
+    justify-content: space-between;
+}
+
+.line-desgin{
+    position: relative;
+    display: block;
+}
+
+.line-desgin:before {
+    position: absolute;
+    content: "";
+    width: 571px;
+    height: 1.5px;
+    background-color: var(--orange);
+    top: 44%;
+    left: 36px;
+}
+
+
+/*reliable-movers-sec-end*/
+
+
+.moving-service-sec{
+    background-color: var(--lightgrey);
+}
+
+.sec-heading h2{
+    color: #1F1F1F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.sec-heading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.line-desgin-2 {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.line-desgin-2:before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1.38px;
+    background-color: var(--orange);
+    right: 37%;
+    top: 33%;
+}
+
+.line-desgin-2:after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1.38px;
+    background-color: var(--orange);
+    top: 33%;
+    left: 37%;
+}
+
+.moving-service-sec-contenet ul {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.moving-service-sec-contenet ul li {
+    background: url('../images/moving-service-sec-text-bg.svg');
+    width: 100%;
+    max-width: calc(25% - 30px);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 15px;
+    background-position: center center;
+     padding: 22px;
+}
+
+
+.service-conenten-text h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--darkblack);
+    padding-top: 46px;
+}
+
+.service-conenten-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    min-height: 102px;
+}
+
+
+.service-conenten-text a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--orange);
+    display: block;
+    padding-bottom: 26px;
+}
+
+.service-conenten-text a:hover{
+    color: var(--darkblue);
+}
+
+.service-conenten-text a i{
+    padding-left: 5px;
+}
+
+.service-conenten-text span {
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    line-height: 0;
+}
+
+
+
+/**/
+
+
+.choosing-peace-sec-bottom ul li {
+    padding: 18px;
+    padding-top: 0;
+    border-radius: 5px;
+    border: 1px solid var(--orange);
+    width: 100%;
+    max-width: calc(25% - 30px);
+    margin: 0 15px;
+    transition: all 0.5s ease 0s;
+}
+
+.choosing-peace-sec-bottom ul li span {
+    background-color: var(--orange);
+    clip-path: polygon(0 70%, 0 0, 100% 0, 100% 70%, 50% 100%);
+    width: 60px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+}
+
+.choosing-peace-sec-bottom ul li:hover h5{
+    color: var(--white);
+}
+
+.choosing-peace-sec-bottom ul li:hover p{
+    color: var(--white);
+}
+
+.choosing-peace-sec-bottom ul li:hover{
+    background-color: var(--orange);
+}
+
+.choosing-peace-sec-bottom ul li:hover span{
+    background-color: var(--white);
+}
+
+.choosing-peace-sec-bottom ul li h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--darkblack);
+}
+.choosing-peace-sec-bottom ul li p {
+    color: #666;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+/**/
