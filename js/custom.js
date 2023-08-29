@@ -24,6 +24,3 @@ $('.toggle-btn').click(function() {
 
 });
 
-
-moving-service-sec-text-bg
-
