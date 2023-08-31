@@ -17,6 +17,13 @@
 	    font-size: 13px;
 	}
 
+
+	.section-gapping, section {
+	    padding-bottom: 50px;
+	    padding-top: 50px;
+	    overflow: hidden;
+	}
+
 	.header.fixed {
 	    top: -50px;
 	}
@@ -86,17 +93,6 @@
 	.sec-heading h2{
 		font-size: 40px;
 	}
-	.line-desgin-2:before{
-		width: 150px;
-		right: 32%;
-		top: 35%
-	}
-
-	.line-desgin-2:after {
-	    width: 150px;
-	    top: 35%;
-	    left: 32%;
-	}
 
 	.service-conenten-text h4 {
 	    font-size: 17px;
@@ -150,17 +146,6 @@
 	    font-size: 13px;
 	}
 
-	.line-desgin-2:before {
-	    width: 135px;
-	    right: 29%;
-	    top: 39%;
-	}	
-
-	.line-desgin-2:after {
-	    width: 135px;
-	    top: 39%;
-	    left: 29%;
-	}
 
 	.clinet-area-img {
 	    max-width: 60px;
@@ -175,6 +160,68 @@
 		font-size: 14px;
 		line-height: 10px;
 	}
+
+	.line-desgin-2:after {
+	    width: 135px;
+	    top: 39%;
+	    left: 34%;
+	}
+
+	.line-desgin-2:before {
+	    width: 135px;
+	    right: 34%;
+	    top: 39%;
+	}
+
+	.move-with-amex-inner h4{
+		font-size: 33px;
+	}
+
+	.move-with-amex-inner p {
+	    font-size: 14px;
+	}
+
+	.moving-packages-box > ul > li {
+	    max-width: calc(50% - 30px);
+	    margin-bottom: 30px;
+	}
+
+	.insured-moving-sec .row{
+		align-items: center;
+	}
+
+	.sec-heading h2 {
+	    font-size: 36px;
+	}
+
+	.why-choose-amex-sec-right-text-top h5 {
+	    font-size: 40px;
+	    margin-bottom: 7px;
+	}
+
+	.line-desgin {
+	    margin-bottom: 10px;
+	}
+
+	.why-choose-amex-sec-right-text-top {
+	    margin-bottom: 30px;
+	}
+
+	.why-choose-amex-sec-right-text-bottom h5 {
+	    font-size: 33px;
+	    margin-bottom: 7px;
+	}
+
+	.why-choose-amex-sec .row{
+		align-items: center;
+	}
+
+	.clinet-details h5 {
+	    font-size: 18px;
+	    margin-bottom: 3px;
+	}
+
+
 }
 
 @media (max-width:992px){
@@ -381,6 +428,71 @@
 	    padding: 5px;
 	}
 
+	.line-desgin-2:before {
+	    width: 135px;
+	    right: 29%;
+	    top: 41%;
+	}
+
+	.line-desgin-2:after {
+	    width: 135px;
+	    top: 41%;
+	    left: 29%;
+	}
+
+	.line-desgin:before {
+	    width: 400px;
+	    top: 46%;
+	    height: 1.5px;
+	}
+
+	.move-with-amex-box{
+		flex-direction: row;
+	}
+
+	.move-with-amex-inner h4 {
+	    font-size: 30px;
+	    min-height: 92px;
+	}
+
+	.coll-2 {
+	    max-width: 100%;
+	}
+
+	.insured-moving-sec-left{
+		margin-bottom: 20px;
+	}
+
+	.insured-moving-sec-right{
+		padding: 0;
+	}
+
+	.why-choose-amex-sec-right-text-top h5 {
+	    font-size: 30px;
+	    margin-bottom: 5px;
+	}
+
+	.why-choose-amex-sec-right-text-bottom h5 {
+	    font-size: 28px;
+	    margin-bottom: 5px;
+	}
+
+	.moving-reviews-sec .sec-heading span {
+	    font-size: 26px;
+	}
+
+	.move-with-amex-box li{
+		width: 100%;
+		max-width: 100%;
+	}
+	.move-with-amex-box li {
+    background-color: #fff;
+    padding: 30px 0 30px 30px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1000%;
+}
+
 }
 
 @media (max-width:767px){
@@ -392,6 +504,8 @@
 	.header.fixed {
 	    top: -32px;
 	}
+
+
 
 	.section-gapping, section {
 	    padding-bottom: 30px;
@@ -423,8 +537,8 @@
 	    pointer-events: auto;
 	}
 
-	.long-distance-sec {
-	    padding: 80px 0px;
+	.long-distance-sec{
+		padding-top: 70%;
 	}
 
 	.long-distance-sec h2 {
@@ -523,6 +637,7 @@
 	    font-size: 21px;
 	    line-height: 20px;
 	    margin: 15px;
+	    margin-bottom: 10px;
 	}
 
 	.line-desgin-2:before {
@@ -552,6 +667,10 @@
 	    padding: 30px;
         max-width: 100%;
         margin-bottom: 10px;
+	}
+
+	.service-conenten-text{
+		padding: 20px;
 	}
 
 	.sec-heading p {
@@ -601,5 +720,71 @@
 
 	.moving-tips-box ul {
 	    display: block;
+	}
+
+	.move-with-amex-box{
+		flex-direction: column;
+	}
+
+	.move-with-amex-box li:not(:last-child) {
+	    margin-bottom: 40px;
+	}
+
+	.move-with-amex-box li a {
+	    transform: translateY(38px);
+	}
+
+	.move-with-amex-inner h4 {
+	    font-size: 22px;
+	    min-height: 0px;
+	}
+	.move-with-amex-inner p {
+	    font-size: 10px;
+	}
+
+	.moving-packages-box > ul > li {
+	    max-width: 100%;
+	}
+
+	.desighn-bootom {
+	    width: 60px;
+	    height: 60px;
+	    font-size: 15px;
+	}
+
+	.moving-packages-box-top {
+	    align-items: flex-start;
+	    margin-bottom: 10px;
+	}
+
+	.moving-packages-box-top h5 {
+	    font-size: 20px;
+	    font-weight: 700;
+	    margin-bottom: 0px;
+	}
+
+	.moving-packages-box p, .moving-packages-box .moving-packages-box-bottom li {
+	    font-size: 14px;
+	}
+
+	.moving-packages-box .moving-packages-box-bottom li:not(:last-child) {
+	    margin-bottom: 20px;
+	}
+
+	.moving-packages-box-btn {
+	 transform: translateY(12px) translateX(195px); 
+	} 
+
+	.insured-moving-sec {
+	    padding: 50px 0;
+	}
+
+	.client-reviews-bottom p {
+	    min-height: 80px;
+	}
+
+	.moving-reviews-sec .sec-heading span {
+	    font-size: 20px;
+	    margin-bottom: 0;
 	}
 }

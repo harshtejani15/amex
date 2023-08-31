@@ -152,7 +152,7 @@ body h3,
 body h4,
 body h5,
 body h6 {    line-height: 140%;
-    color: #5b6770;
+    color: var(--darkblack);
     font-weight: bold;
     margin: 0 0 15px;
 }
@@ -201,7 +201,7 @@ img {
 }
 body p {
     color: #5b6770;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 160%;
@@ -275,6 +275,13 @@ a {
     padding-bottom: 100px;
     padding-top: 100px;
     overflow: hidden;
+}
+
+
+
+.coll-2{
+    width: 100%;
+    max-width: 50%;
 }
 
 /*css start*/
@@ -435,12 +442,13 @@ a {
     color: var(--white);
 }
 
-.secondery-btn{
+.secondery-btn {
     padding: 14px 32px;
-    border:1px solid var(--orange);
+    border: 1px solid var(--orange);
     color: var(--orange);
     border-radius: 5px;
     display: inline-block;
+    background-color: var(--white);
 }
 
 .secondery-btn:hover{
@@ -520,8 +528,9 @@ a {
     background: url('../images/long-distance-sec.svg');
     background-size: cover;
     position: relative;
+    padding: 0;
     z-index: 1;
-    padding-top: 28%;
+    padding-top: 31%;
     display: flex;
     align-items: center;
 }
@@ -663,9 +672,11 @@ a {
     border-right: 1px solid #D9D9D9;
 }
 
-.get-a-quote-left p{ 
+.get-a-quote-left p {
     color: var(--white);
+    font-size: 15px;
 }
+
 .get-a-quote-right {
     display: flex;
     justify-content: space-around;
@@ -747,7 +758,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .sec-heading{
@@ -759,7 +770,7 @@ a {
     position: relative;
     text-align: center;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
 
 .line-desgin-2:before {
@@ -976,3 +987,296 @@ a {
 
 /**/
 
+/**/
+
+.move-with-amex-sec {
+    background: url('../images/move-with-amex-bg.svg');
+    background-size: cover;
+    padding: 85px 0;
+}
+
+.move-with-amex-box {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.move-with-amex-inner h4{
+    font-size: 48px;
+    color: var(--darkblack);
+    font-weight: 700;
+}
+
+.move-with-amex-inner p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.move-with-amex-box li {
+    background-color: #fff;
+    padding: 30px 0 30px 30px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 50%;}
+
+.move-with-amex-box li:not(:last-child){
+    margin-bottom: 70px;
+}
+
+.move-with-amex-inner{
+    width: 90%;
+}
+
+.move-with-amex-box li a{
+    transform: translateY(50px);
+}
+
+/**/
+
+
+/**/
+
+.moving-packages-box > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.moving-packages-box > ul > li {
+    border: 1px solid #1f1f1f;
+    padding: 20px;
+    width: 100%;
+    max-width: calc(25% - 30px);
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 15px;
+    transition: all 0.5s ease 0s;
+}
+
+.moving-packages-box > ul > li:hover span svg path {
+    fill: transparent;
+    stroke: var(--white);
+}
+
+.moving-packages-box > ul > li:hover{
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.moving-packages-box > ul > li:hover .moving-packages-box-top h5 ,.moving-packages-box p{
+    color: var(--white);
+}
+
+.moving-packages-box > ul > li:hover .desighn-bootom{
+    background-color: var(--white);
+    color: var(--darkblue);
+}
+
+.moving-packages-box > ul > li:hover .moving-packages-box-top p{
+    color: var(--white);
+}
+
+.moving-packages-box > ul > li:hover .moving-packages-box-bottom li{
+    color: var(--white);
+}
+
+.moving-packages-box > ul > li:hover .moving-packages-box-bottom li:before{
+    filter: invert(0.5);
+}
+
+.moving-packages-box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.moving-packages-box-top h5{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.moving-packages-box p, .moving-packages-box .moving-packages-box-bottom li {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    color: var(--grey);
+}
+
+.moving-packages-box .moving-packages-box-bottom li:not(:last-child){
+    margin-bottom: 31px;
+}
+
+
+
+.desighn-bootom {
+    background-color: var(--darkblue);
+    clip-path: polygon(0 70%, 0 0, 100% 0, 100% 70%, 50% 100%);
+    width: 92px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.moving-packages-box-btn{
+    display: block;
+    transform: translateY(20px) translateX(120px);
+}
+
+
+.moving-packages-box-bottom ul li span{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+/**/
+
+/**/
+
+.insured-moving-sec{
+    background-color: var(--lightgrey);
+    padding: 80px 0;
+}
+
+.why-choose-amex-sec-left{
+    padding-right: 30px;
+}
+
+.insured-moving-sec .sec-heading{
+    text-align: left;
+}
+
+.insured-moving-sec-right {
+    padding: 0 40px;
+}
+
+.why-choose-amex-sec-right-text-top {
+    margin-bottom: 50px;
+}
+
+.why-choose-amex-sec-right-text-top h5{
+    font-size: 48px;
+}
+
+
+.why-choose-amex-sec-right-text-bottom h5{
+    font-size: 38px;
+}
+/**/
+
+/**/
+
+.moving-reviews-sec .sec-heading span{
+    display: block;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+
+/**/
+
+/**/
+
+.moving-reviews-sec{
+    background-color: var(--lightgrey);
+}
+
+.moving-reviews-sec-bottom > ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moving-reviews-sec-bottom .slide {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #2D3E50;
+    padding: 21px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.client-reviews-top  span{
+    display: block;
+    position: absolute;
+    right: 0;
+}
+.client-reviews span img{
+    margin: 0;
+}
+
+.clinet-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.clinet-details h5{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.client-reviews .clinet-img{
+    margin-right: 15px;
+}
+
+.client-reviews-top{
+    margin-bottom: 20px;
+}
+
+.client-reviews-bottom ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.client-reviews-bottom ul li{
+    margin-right: 6px;
+}
+
+.client-reviews-bottom p {
+    min-height: 154px;
+}
+
+.moving-reviews-sec-bottom{
+    position: relative;
+}
+
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    right: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-nav button i{
+    color: var(--orange);
+}
+
+.owl-dots span{
+    background-color: var(--darkblue);
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.owl-dots span:hover{
+    background-color: var(--orange);
+}
+
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+/**/
