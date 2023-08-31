@@ -1248,9 +1248,9 @@ a {
     position: relative;
 }
 
-.owl-nav{
+.owl-nav {
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: -30px;
     right: -30px;
     display: flex;
