@@ -1280,3 +1280,218 @@ a {
     margin-top: 40px;
 }
 /**/
+
+/**/
+
+.get-moving-quote-sec-top h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 70px;
+    margin-bottom: 0;
+}
+
+.get-moving-quote-sec-top .container,
+.get-moving-quote-sec-close-open-menu .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-moving-quote-sec-close-open-menu {
+    background-color: var(--orange);
+    margin-top: 50px;
+    padding: 23px 0;
+}
+
+.get-moving-quote-sec-close-open-menu h5 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.get-moving-quote-sec-bottom{
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.get-moving-quote-sec-close-open-menu span{
+    margin-left: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+section.plus_open .get-moving-quote-sec-close-open-menu span{
+    transform: rotate(45deg);
+}
+
+.get-moving-quote-sec-bottom .get-moving-quote-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.get-moving-quote-sec-bottom .get-moving-quote-company > li {
+    width: 100%;
+    max-width: 20%;
+}
+
+.get-moving-quote-inner-text li{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-bottom: 30px;
+}
+
+.get-moving-quote-inner-text li span{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+/**/
+
+
+.footer-top{
+    background-color: #1A2B4A;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+
+.footer-top-imgs {
+    display: flex;  
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-top-imgs li{
+    padding-right: 11px;
+}
+
+.footer-top a,.footer-top p{
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    display: block;
+}
+
+.footer-top .footer-top-logo a{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-top h5{
+    font-size: 27px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.footer-top ul li svg path{
+    fill: transparent;
+    stroke: var(--orange);
+}
+
+.footer-top ul li {
+    padding: 11px 0;
+    margin-right: 5px;
+    transition: all 0.5s ease 0s;
+}
+
+.footer-top-contact-us  span{
+    font-size: 16px;
+    color: #6F7F8F;
+    font-weight: 400;
+}
+
+.footer-top-contact-us ul li{
+    display: flex;
+}
+
+.footer-top ul li a:hover{
+    color: var(--orange);
+}
+
+.footer-top-contact-us-img {
+    margin-right: 13px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-top-quick-links ul li span,
+.footer-top-moving-sevice ul li span{
+    margin-right: 15px;
+}
+.footer-top-logo {
+    width: 100%;
+    max-width: 43%;
+}
+
+.footer-top-quick-links {
+    width: 100%;
+    max-width: 14%;
+}
+
+.footer-top-moving-sevice {
+    width: 100%;
+    max-width: 16%;
+}
+
+.footer-top-contact-us {
+    width: 100%;
+    max-width: 18%;
+}
+
+.footer-top .row{
+    justify-content: space-between;
+}
+
+.footer-top-contact-us-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.footer-bottom {
+    background-color: #152035;
+    padding: 10px 0;
+}
+
+.footer-bottom .row{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom p{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-bottom a {
+    margin-right: 10px;
+    width: 36px;
+    display: flex;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #1D3052;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--white);
+}
+
+.footer-bottom-icon a:hover{
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.footer-bottom-icon{
+    display: flex;
+}
+
+/**/
+
+
+
+
+/**/

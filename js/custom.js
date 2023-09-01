@@ -6,6 +6,12 @@ $('.toggle-btn').click(function() {
 	$("body").toggleClass('menu_open');
 })
 
+$('.plus_icon').click(function() {
+	$('.get-moving-quote-sec-bottom').slideToggle('linear');	
+})
+
+$('.get-moving-quote-sec-bottom').hide();
+
 //fixed header
     $(window).scroll(function() {
         var header = $('.header');

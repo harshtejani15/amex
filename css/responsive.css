@@ -221,6 +221,49 @@
 	    margin-bottom: 3px;
 	}
 
+	.get-moving-quote-sec-top h4 {
+		font-size: 22px;
+		margin-right: 40px;
+	}
+
+	.get-moving-quote-sec-close-open-menu {
+	    margin-top: 30px;
+	    padding: 15px 0;
+	}
+
+	.get-moving-quote-sec-close-open-menu h5 {
+	    font-size: 25px;
+	}
+
+	.footer-top a, .footer-top p {
+	    font-size: 11px;
+	}
+
+	.footer-top a, .footer-top p {
+	    font-size: 11px;
+	}
+
+	.footer-top ul li {
+	    padding: 7px 0;
+	    margin-right: 5px;
+	}
+
+	.footer-top h5 {
+	    font-size: 20px;
+	}
+
+	.footer-top-imgs {
+	    margin-top: 12px;
+	}
+
+	.footer-top-contact-us  span {
+	    font-size: 14px;
+	}
+
+	.footer-top-contact-us-bottom {
+	    margin-top: 20px;
+	}
+
 
 }
 
@@ -486,12 +529,70 @@
 		max-width: 100%;
 	}
 	.move-with-amex-box li {
-    background-color: #fff;
-    padding: 30px 0 30px 30px;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 1000%;
-}
+	    background-color: #fff;
+	    padding: 30px 0 30px 30px;
+	    border-radius: 5px;
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+	.get-moving-quote-sec-top h4 {
+	    font-size: 16px;
+	    margin-right: 20px;
+	}
+
+	.get-moving-quote-sec-close-open-menu {
+	    margin-top: 20px;
+	    padding: 11px 0;
+	}
+
+	.get-moving-quote-sec-close-open-menu h5 {
+	    font-size: 20px;
+	}
+
+	.get-moving-quote-sec-bottom .get-moving-quote-company > li {
+	    max-width: 19%;
+	}
+
+	.footer-top {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+
+	.footer-top-logo {
+	    max-width: 100%;
+	}
+
+	.footer-top-quick-links {
+	    max-width: 33.33%;
+	}
+
+	.footer-top-moving-sevice {
+	    max-width: 33.3%;
+	}
+
+	.footer-top-contact-us {
+	    max-width: 33.33%;
+	}
+
+	.footer-top a, .footer-top p {
+	    font-size: 14px;
+	    margin-bottom: 0;
+	}
+
+	.footer-top .footer-top-logo a {
+	    margin-bottom: 20px;
+	}
+
+	.footer-top-imgs {
+	    margin-top: 0px;
+	    justify-content: space-between;
+	}
+
+	.get-moving-quote-inner-text li {
+	    font-size: 13px;
+	    margin-bottom: 20px;
+	}
 
 }
 
@@ -505,11 +606,9 @@
 	    top: -32px;
 	}
 
-
-
 	.section-gapping, section {
-	    padding-bottom: 30px;
-	    padding-top: 30px;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
 	}
 	.header-top-left {
     	padding: 6px 15px 6px 0;
@@ -537,6 +636,11 @@
 	    pointer-events: auto;
 	}
 
+	.get-a-quote-left p {
+	    color: var(--white);
+	    font-size: 9px;
+	}
+
 	.long-distance-sec{
 		padding-top: 70%;
 	}
@@ -560,10 +664,10 @@
 	    padding: 7px;
 	}
 	.long-distance-sec-left-side {
-	    top: 20%;
+	    top: 40%;
 	}
 	.long-distance-sec-right-side {
-	    top: 25%;
+	    top: 60%;
 	}
 	.long-distance-sec-right-side a {
 	    min-width: 144px;
@@ -593,7 +697,12 @@
 	}
 
 	.get-a-quote-coll-1 {
-	    padding: 0px 30px;
+	    padding: 0px 14px;
+	}
+
+	.reliable-movers-right {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
 	}
 
 	.get-a-quote-coll-2-text {
@@ -616,7 +725,7 @@
 	.line-desgin:before {
 	    width: 185px;
 	    top: 45%;
-	    height: 1.5px;
+	    height: 1px;
 	}
 
 	.reliable-movers-left h3 {
@@ -644,12 +753,14 @@
 	    width: 70px;
 	    right: 57%;
 	    top: 39%;
+	    height: 1px;
 	}
 
 	.line-desgin-2:after {
 	    width: 65px;
 	    top: 39%;
 	    left: 57%;
+	    height: 1px;
 	}
 
 	.service-conenten-text h4 {
@@ -786,5 +897,132 @@
 	.moving-reviews-sec .sec-heading span {
 	    font-size: 20px;
 	    margin-bottom: 0;
+	}
+
+	.get-moving-quote-sec-close-open-menu {
+	    margin-top: 10px;
+	    padding: 7px 0;
+	}
+
+	.get-moving-quote-sec-top h4 {
+	    font-size: 5px;
+	    margin-right: 5px;
+	}
+
+	.get-moving-quote-sec-close-open-menu span {
+	    margin-left: 6px;
+	    display: block;
+	    cursor: pointer;
+	    max-width: 11px;
+	}
+
+	.get-moving-quote-sec-close-open-menu h5 {
+	    font-size: 10px;
+	}
+
+	.get-moving-quote-inner-text li {
+	    font-size: 10px;
+	    margin-bottom: 5px;
+	}
+
+	.get-moving-quote-inner-text li span svg{
+		height: 7px;
+		width: 7px;
+	}
+
+	.get-moving-quote-inner-text li span {
+	    padding-right: 0px;
+	}
+
+	.get-moving-quote-sec-bottom .get-moving-quote-company {
+	    justify-content: center;
+	}
+
+	.get-moving-quote-sec-bottom .get-moving-quote-company > li {
+	    max-width: 33.33%;
+	    margin-bottom: 12px;
+	}
+
+	.footer-top .footer-top-logo a {
+	    margin-bottom: 10px;
+	    max-width: 100px;
+	}
+
+	.footer-top a, .footer-top p {
+	    font-size: 10px;
+	    margin-bottom: 0;
+	}
+
+	.footer-top ul li a span svg{
+		width: 7px;
+		height: 7px;   
+	}
+
+	.footer-top h5 {
+	    font-size: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.footer-top ul li {
+	    padding: 2px 0;
+	    margin-right: 5px;
+	}
+
+	.footer-top a, .footer-top p {
+	    font-size: 7px;
+	    margin-bottom: 0;
+	}
+
+	.footer-top-quick-links ul li span, .footer-top-moving-sevice ul li span {
+	    margin-right: 3px;
+	}
+
+	.footer-top-contact-us {
+	    max-width: 100%;
+	    margin-top: 15px;
+	}
+
+	.footer-top-moving-sevice {
+	    max-width: 50%;
+	}
+
+	.footer-top-quick-links {
+	    max-width: 50%;
+	}
+
+	.footer-top-contact-us  span {
+	    font-size: 9px;
+	}
+
+	.footer-top-contact-us-img {
+	    margin-right: 10px;
+	    width: 10px;
+	    height: 10px;
+	}
+
+	.footer-bottom-icon a svg{
+		height: 8px;
+		width: 8px;
+	}
+
+	.footer-bottom a {
+	    margin-right: 5px;
+	    width: 20px;
+	    height: 20px;
+	}
+
+	.footer-bottom p {
+	    color: var(--white);
+	    font-size: 8px;
+	    font-weight: 400;
+	}
+
+	.footer-top-contact-us-bottom-inner{
+		margin-right: 30px;
+	}
+
+	.footer-top-contact-us-bottom {
+	    justify-content: flex-start;
+	    margin-top: 10px;
 	}
 }
