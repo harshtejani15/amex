@@ -558,14 +558,24 @@ a {
     font-weight: 700;
     color: var(--white);
 }
-
-.long-distance-sec-left-side{
+.long-distance-sec-left-side {
     position: fixed;
     top: 44%;
     z-index: 99;
 }
 
-.long-distance-sec-left-side a{
+.long-distance-sec-left-side ul li {
+    display: flex;
+    transform: translateX(-213px);
+    transition: all 0.5s ease 0s;
+}
+
+.long-distance-sec-left-open ul li {
+    display: flex;
+    transform: translateX(0px);
+}
+
+.long-distance-sec-left-side span{
     width: 60px;
     height: 60px;
     background-color: var(--orange);
@@ -573,6 +583,17 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 0px 5px 5px 0px;
+}
+
+.long-distance-sec-left-side a {
+    display: flex;
+    background-color: var(--white);
+    color: var(--darkblack);
+    padding-left: 5px;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 213px;
 }
 
 .long-distance-sec-right-side {
@@ -593,6 +614,10 @@ a {
 
 .long-distance-sec-right-side li:hover{
     transform: translateX(0px);
+}
+
+.long-distance-sec-right-side li:hover span{
+    background-color: var(--grey);
 }
 
 .long-distance-sec-right-side a {
@@ -1019,9 +1044,9 @@ a {
     width: 100%;
     max-width: 50%;}
 
-.move-with-amex-box li:not(:last-child){
-    margin-bottom: 70px;
-}
+.move-with-amex-box li{
+    margin: 10px;
+}   
 
 .move-with-amex-inner{
     width: 90%;
@@ -1206,7 +1231,9 @@ a {
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
 }
+
 .client-reviews span img{
     margin: 0;
 }
@@ -1321,9 +1348,10 @@ a {
     margin-left: 15px;
     display: block;
     cursor: pointer;
+    transition: all 0.5s ease 0s;
 }
 
-section.plus_open .get-moving-quote-sec-close-open-menu span{
+.plus_rotate{
     transform: rotate(45deg);
 }
 

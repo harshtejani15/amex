@@ -7,10 +7,21 @@ $('.toggle-btn').click(function() {
 })
 
 $('.plus_icon').click(function() {
-	$('.get-moving-quote-sec-bottom').slideToggle('linear');	
+	$('.get-moving-quote-sec-bottom').slideToggle('linear');
+
 })
 
 $('.get-moving-quote-sec-bottom').hide();
+
+$('.plus_icon').click(function() {
+	$(".plus_icon").toggleClass('plus_rotate');
+})
+
+$('.left-side-scroll-btn').click(function() {
+	$(".long-distance-sec-left-side").toggleClass('long-distance-sec-left-open');
+})
+
+
 
 //fixed header
     $(window).scroll(function() {

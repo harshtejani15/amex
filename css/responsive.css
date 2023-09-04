@@ -381,11 +381,13 @@
 	    height: 50px;
 	    padding: 12px;
 	}
-	.long-distance-sec-left-side a {
+
+	.long-distance-sec-left-side span {
 	    width: 50px;
 	    height: 50px;
-	    padding: 9px;
+	    padding: 12px;
 	}
+
 	.long-distance-sec-left-side {
 	    	top: 27%;
 		}
@@ -495,7 +497,7 @@
 
 	.move-with-amex-inner h4 {
 	    font-size: 30px;
-	    min-height: 92px;
+	    min-height: 61px;
 	}
 
 	.coll-2 {
@@ -652,17 +654,20 @@
 	.long-distance-sec p {
 	    font-size: 12px;
 	}
-	.long-distance-sec-left-side a {
-	    width: 30px;
-	    height: 30px;
-	    padding: 5px;
-	    border-radius: 0 2px 2px 0;
-	}
+
+
 	.long-distance-sec-right-side span {
 	    width: 30px;
 	    height: 30px;
 	    padding: 7px;
 	}
+
+	.long-distance-sec-left-side span {
+	    width: 30px;
+	    height: 30px;
+	    padding: 6px;
+	}
+
 	.long-distance-sec-left-side {
 	    top: 40%;
 	}
@@ -689,7 +694,7 @@
 	}
 
 	body p {
-	    font-size: 8px;
+	    font-size: 12px;
 	}
 
 	.get-a-quote-right span {
@@ -781,7 +786,7 @@
 	}
 
 	.service-conenten-text{
-		padding: 20px;
+		padding: 50px;
 	}
 
 	.sec-heading p {
@@ -969,7 +974,7 @@
 	}
 
 	.footer-top a, .footer-top p {
-	    font-size: 7px;
+	    font-size: 10px;
 	    margin-bottom: 0;
 	}
 
