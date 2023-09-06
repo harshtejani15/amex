@@ -564,6 +564,10 @@ a {
     z-index: 99;
 }
 
+.long-distance-sec-left-open ul li span{
+    background-color: var(--grey);
+}
+
 .long-distance-sec-left-side ul li {
     display: flex;
     transform: translateX(-213px);
@@ -591,9 +595,8 @@ a {
     background-color: var(--white);
     color: var(--darkblack);
     align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
     min-width: 213px;
+    justify-content: center;
 }
 
 .long-distance-sec-right-side {
@@ -699,7 +702,7 @@ a {
 
 .get-a-quote-left p {
     color: var(--white);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .get-a-quote-right {
@@ -1351,8 +1354,8 @@ a {
     transition: all 0.5s ease 0s;
 }
 
-.plus_rotate{
-    transform: rotate(45deg);
+.plus_rotate {
+    transform: rotate(405deg);
 }
 
 .get-moving-quote-sec-bottom .get-moving-quote-company {

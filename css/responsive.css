@@ -497,7 +497,7 @@
 
 	.move-with-amex-inner h4 {
 	    font-size: 30px;
-	    min-height: 61px;
+	    min-height: 84px;
 	}
 
 	.coll-2 {
@@ -550,6 +550,11 @@
 
 	.get-moving-quote-sec-close-open-menu h5 {
 	    font-size: 20px;
+	}
+
+	.move-with-amex-box li:not(:last-child) {
+	    margin-bottom: 0;
+	    margin-right: 15px;
 	}
 
 	.get-moving-quote-sec-bottom .get-moving-quote-company > li {
@@ -896,7 +901,7 @@
 	}
 
 	.client-reviews-bottom p {
-	    min-height: 80px;
+	    min-height: 115px;
 	}
 
 	.moving-reviews-sec .sec-heading span {
