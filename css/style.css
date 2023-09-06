@@ -571,7 +571,7 @@ a {
 .long-distance-sec-left-side ul li {
     display: flex;
     transform: translateX(-213px);
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s cubic-bezier(0, 1.1, 1, -0.46) 0s;
     cursor: pointer;
 }
 
@@ -597,6 +597,7 @@ a {
     align-items: center;
     min-width: 213px;
     justify-content: center;
+    font-size: 16px;
 }
 
 .long-distance-sec-right-side {
